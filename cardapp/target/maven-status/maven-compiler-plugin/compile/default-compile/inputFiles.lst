@@ -1,0 +1,12 @@
+/Users/juliocesaradias/Documents/Workspace/cardapp/src/main/java/com/mifinity/controller/ManageCardController.java
+/Users/juliocesaradias/Documents/Workspace/cardapp/src/main/java/com/mifinity/dao/CardHolderDAO.java
+/Users/juliocesaradias/Documents/Workspace/cardapp/src/main/java/com/mifinity/bean/CardMB.java
+/Users/juliocesaradias/Documents/Workspace/cardapp/src/main/java/com/mifinity/model/CardHolderModel.java
+/Users/juliocesaradias/Documents/Workspace/cardapp/src/main/java/com/mifinity/util/CCUtils.java
+/Users/juliocesaradias/Documents/Workspace/cardapp/src/main/java/com/mifinity/messages/MifinityConstants.java
+/Users/juliocesaradias/Documents/Workspace/cardapp/src/main/java/com/mifinity/messages/SystemUserProfileType.java
+/Users/juliocesaradias/Documents/Workspace/cardapp/src/main/java/com/mifinity/model/SystemUserProfileModel.java
+/Users/juliocesaradias/Documents/Workspace/cardapp/src/main/java/com/mifinity/model/SystemUserModel.java
+/Users/juliocesaradias/Documents/Workspace/cardapp/src/main/java/com/mifinity/controller/AbstractCardController.java
+/Users/juliocesaradias/Documents/Workspace/cardapp/src/main/java/com/mifinity/dao/SystemUserDAO.java
+/Users/juliocesaradias/Documents/Workspace/cardapp/src/main/java/com/mifinity/util/MifinityUtils.java

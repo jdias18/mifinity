@@ -1,0 +1,12 @@
+com/mifinity/dao/SystemUserDAO.class
+com/mifinity/model/SystemUserProfileModel.class
+com/mifinity/util/CCUtils.class
+com/mifinity/util/MifinityUtils.class
+com/mifinity/dao/CardHolderDAO.class
+com/mifinity/controller/AbstractCardController.class
+com/mifinity/model/SystemUserModel.class
+com/mifinity/messages/SystemUserProfileType.class
+com/mifinity/messages/MifinityConstants.class
+com/mifinity/bean/CardMB.class
+com/mifinity/controller/ManageCardController.class
+com/mifinity/model/CardHolderModel.class

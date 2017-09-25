@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+	<h:head>
+	</h:head>
+
+	<h:body>
+		<ui:composition template="layout.xhtml">
+	    		<ui:define name="content">
+				<h:form>
+					<h:panelGrid columns="2">
+						<h:outputLabel value="Card Number :" for="cardnumber"/>
+						<h:inputText id="cardnumber" value="#{CardMB.cardNumber}"/>
+						<h:commandButton value="Search" action="#{CardMB.searchCard}"></h:commandButton>
+					</h:panelGrid>
+				</h:form>
+				<p:dataTable id="checkboxDT" var="card" value="#{CardMB.resultList}" selection="#{CardMB.idSelected}" rowKey="#{CardMB.resultList}">
+						<f:facet name="header">
+						    Card List
+						</f:facet>
+						<p:column selectionMode="single" style="width:16px;text-align:center"/>
+						<p:column headerText="Id">
+						    <h:outputText value="#{card.id}" />
+						</p:column>
+						<p:column headerText="Name">
+						    <h:outputText value="#{card.name}" />
+						</p:column>
+						<p:column headerText="Card Number">
+						    <h:outputText value="#{card.cardNumber}" />
+						</p:column>
+						<p:column headerText="Exp Date">
+						    <h:outputText value="#{card.exp}">
+						    		<f:convertDateTime type="date" dateStyle="short" pattern="YY/MM"/>
+						    </h:outputText>
+						</p:column>
+				</p:dataTable>
+			</ui:define>
+	    	</ui:composition>
+	</h:body>
+</html>
